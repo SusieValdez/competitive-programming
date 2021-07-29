@@ -1,0 +1,64 @@
+:root {
+  --blue: #23213d;
+  --dark-teal: #22636b;
+  --teal: #22636b;
+  --light-teal: #94e092;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+h1 {
+  color: white;
+  margin-left: 3%;
+}
+
+.profile {
+  color: white;
+  border: solid 2px var(--dark-teal);
+  border-radius: 2%;
+  border-style: dotted;
+  height: 50vh;
+  margin: 0px 2%;
+  max-width: 20vw;
+  padding: 2%;
+}
+
+img.avatar {
+  border-radius: 50%;
+  margin: 15% 1.5%;
+  max-width: 20vw;
+}
+
+.chart-container {
+  color: white;
+  border: solid 2px var(--dark-teal);
+  border-radius: 2%;
+  border-style: dotted;
+  position: absolute;
+  top: 2%;
+  right: 0;
+  width: 60%;
+  margin: 5% 5%;
+  padding: 2%;
+}
+
+.bar {
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 2%;
+  background-color: grey;
+}
+
+.progress {
+  width: 0%;
+  height: 30px;
+  background-color: green;
+  border-radius: 2%;
+}
