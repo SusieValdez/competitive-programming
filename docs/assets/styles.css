@@ -12,41 +12,76 @@
 
 body {
   background-color: var(--blue);
+  font-family: "Source Code Pro";
+  font-size: 1rem;
 }
 
 h1 {
   color: white;
   margin-left: 3%;
+  font-size: 1.5rem;
+}
+
+button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 30%;
+  transition: 0.3s ease-out;
+}
+
+button a {
+  text-decoration: none;
 }
 
 .profile {
-  color: white;
-  border: solid 2px var(--dark-teal);
-  border-radius: 2%;
-  border-style: dotted;
-  height: 50vh;
-  margin: 0px 2%;
-  max-width: 20vw;
-  padding: 2%;
+  margin: 2%;
+  width: 25vw;
+  align-items: center;
+  display: flex;
 }
 
 img.avatar {
   border-radius: 50%;
-  margin: 15% 1.5%;
-  max-width: 20vw;
+  margin: auto;
+  width: 100%;
+  border: solid 5px white;
+  background-color: rgb(31, 23, 71);
+}
+
+.info {
+  color: white;
+  font-size: 0.7rem;
+  width: 25vw;
+  background-color: rgb(31, 23, 71);
+  border: solid 3px rgb(61, 57, 85);
+  border-radius: 5px;
+  margin: 2%;
+  line-height: 2;
+}
+
+.info header {
+  background-color: rgb(61, 57, 85);
+  font-size: 0.7rem;
 }
 
 .chart-container {
   color: white;
-  border: solid 2px var(--dark-teal);
-  border-radius: 2%;
-  border-style: dotted;
+  border: solid 3px rgb(61, 57, 85);
+  border-radius: 5px;
   position: absolute;
-  top: 2%;
+  top: 10%;
   right: 0;
   width: 60%;
   margin: 5% 5%;
-  padding: 2%;
+}
+
+.chart-container header {
+  background-color: rgb(61, 57, 85);
 }
 
 .bar {
