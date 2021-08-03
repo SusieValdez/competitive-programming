@@ -1,9 +1,9 @@
 {
   "hacker-rank": {
-    "total": 15,
+    "total": 16,
     "sections": {
       "algorithms": 15,
-      "data-structures": 0
+      "data-structures": 1
     }
   },
   "leet-code": {
