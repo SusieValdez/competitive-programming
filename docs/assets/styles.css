@@ -89,6 +89,7 @@ img.avatar {
   margin: 10px auto;
   border-radius: 2%;
   background-color: grey;
+  display: flex;
 }
 
 .progress {
@@ -96,4 +97,6 @@ img.avatar {
   height: 30px;
   background-color: #9e4491;
   border-radius: 2%;
+  padding: 0;
+  margin: 0;
 }
