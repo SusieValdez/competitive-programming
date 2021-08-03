@@ -24,7 +24,7 @@ async function main() {
     const name = progressNames[i];
     const barEl = progressEls[name];
     const progressEl = barEl.firstElementChild;
-    const amount = stats[name];
+    const amount = stats[name].total;
     progress(progressEl, amount);
   }
 }

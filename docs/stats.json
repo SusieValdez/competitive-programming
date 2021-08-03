@@ -1,5 +1,21 @@
 {
-  "project-euler": 13,
-  "leet-code": 0,
-  "hacker-rank": 17
+  "hacker-rank": {
+    "total": 15,
+    "sections": {
+      "algorithms": 15,
+      "data-structures": 0
+    }
+  },
+  "leet-code": {
+    "total": 0,
+    "sections": {
+      "leet-code": 0
+    }
+  },
+  "project-euler": {
+    "total": 13,
+    "sections": {
+      "project-euler": 13
+    }
+  }
 }
