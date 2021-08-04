@@ -44,8 +44,11 @@ async function main() {
     barHeader.innerText = `${formatHeader(websiteName)} xp`;
     const barEl = document.createElement("div");
     barEl.classList.add("bar");
-    Object.entries(sections).forEach(([_, amount]) => {
+    Object.entries(sections).forEach(([sectionName, amount]) => {
       const progressEl = createProgreessBar(amount);
+      progressEl.onclick = () => {
+        document.location = `https://github.com/SusieHatter/competitive-programming/tree/main/solutions/${websiteName}/${sectionName}`;
+      };
       barEl.appendChild(progressEl);
     });
     barsEl.appendChild(barHeader);
