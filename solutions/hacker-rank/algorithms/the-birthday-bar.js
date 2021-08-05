@@ -32,10 +32,14 @@ function readLine() {
  *  3. INTEGER m
  */
 
+function sum(arr) {
+  return arr.reduce((acc, x) => acc + x, 0);
+}
+
 function birthday(s, d, m) {
   let result = 0;
-  for (let i = 0, l = s.length; i < l; i++) {
-    if (s.slice(i, i + m).reduce((x, y) => x + y) === d) {
+  for (let i = 0; i < s.length; i++) {
+    if (sum(s.slice(i, i + m)) === d) {
       result++;
     }
   }
