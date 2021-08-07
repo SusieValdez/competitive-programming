@@ -1,7 +1,8 @@
 {
   "hacker-rank": {
-    "total": 18,
+    "total": 21,
     "sections": {
+      "10-days-of-javascript": 3,
       "algorithms": 16,
       "data-structures": 2
     }
