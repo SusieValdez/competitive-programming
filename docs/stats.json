@@ -1,15 +1,15 @@
 {
   "advent-of-code": {
-    "total": 2,
+    "total": 3,
     "sections": {
-      "2021": 2
+      "2021": 3
     }
   },
   "hacker-rank": {
-    "total": 38,
+    "total": 39,
     "sections": {
       "10-days-of-javascript": 18,
-      "algorithms": 17,
+      "algorithms": 18,
       "data-structures": 3
     }
   },
