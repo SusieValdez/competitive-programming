@@ -6,10 +6,10 @@
     }
   },
   "hacker-rank": {
-    "total": 50,
+    "total": 51,
     "sections": {
       "10-days-of-javascript": 18,
-      "39-day-interview-prep": 2,
+      "39-day-interview-prep": 3,
       "algorithms": 27,
       "data-structures": 3
     }
